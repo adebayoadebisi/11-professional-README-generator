@@ -22,7 +22,7 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-    inquirer.prompt(questions).then(answers => writeToFile("README-Test.md", generateMarkdown(answers)));
+    inquirer.prompt(questions).then(answers => writeToFile("README-test.md", generateMarkdown(answers)));
 }
 
 init();
